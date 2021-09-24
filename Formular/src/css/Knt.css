@@ -1,0 +1,81 @@
+body {margin:0; padding:0;background-color: cyan}
+img {width:100%; height:auto; display:block}
+#page {width: 1000px; margin: 0 auto; font-size: 14px; color: red0; box-shadow: 5px 5px 10px 2px rgba(0,0,0,0.32);}
+#header {position:relative}
+#header #title {position:absolute; top: 1%; right: 1%;color: #ffffff;font-size: 20px}
+#Navigation {height:auto; background-color:#bccbe0; padding:1% 2%;}
+#Navigation a {display:inline-block; margin: 0 20px;color: #224EA1; text-decoration: none; font-weight: bold}
+#Navigation a:hover {}
+#main {background-color: rgba(255, 255, 255,1); padding:2% 7%;}
+#footer {background-color: white; color: #ffffff; padding: 2% 1%}
+
+@media (max-width: 999px) {
+    #page {width: 100%; margin: 0; font-size: 16px}
+    #header {border-bottom: 10px solid #9facbf}
+    #header #title{font-size: 170%}
+    #Navigation {display: none}
+    #main, #footer{padding: 3% 5%;}
+}
+
+
+
+label {
+    width: 35%;
+    display: block;
+    text-align: right;
+    padding-right: 5px;
+    float: left;
+    color: purple;
+}
+
+input{
+    width: 45%;
+
+}
+
+form div{
+    margin-bottom: 10px;
+}
+
+textarea{
+    width: 45.25%;
+    display: block;
+    resize: none;
+    height: 100px;
+}
+
+input.bo{
+    width: 45%;
+    margin-left: 35.55%;
+}
+
+em{
+    color: white;
+}
+
+@media (max-width:699px){
+    form div {margin: 5px 0 20px 5%}
+    label{
+        margin-left:10%;
+        float:none;
+        clear:both;
+        width:35%;
+        text-align: left;
+        color:cadetblue;
+
+    }
+    input{
+        margin-left: 2%;
+        width:870%
+    }
+    textarea{
+        margin-left: 210%;
+        width: 250%;
+
+    }
+    input.bo{
+        margin-left: 10000%;
+        width: 95%;
+    }
+}
+
