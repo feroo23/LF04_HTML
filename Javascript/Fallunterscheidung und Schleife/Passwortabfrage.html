@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="DE">
+<head>
+    <script>
+        let paAbfrage = function (){
+            let benutzerEingabe = "";
+            for(let zaehler = 1; zaehler <= 3 && benutzerEingabe !== "dynamischer Quellcodemanipulierer"; zaehler++){
+                benutzerEingabe = prompt(zaehler + " .Versuch: Was Bedeutet DQM?", "dynamischer");
+            }
+            if (benutzerEingabe !== "dynamischer Quellcodemanipulierer" ) {
+                document.write("Kein Zutritt für Volltrottel!");
+            }
+            else{
+                location.replace("https://www.szut.de/");
+            }
+        }
+    </script>
+</head>
+<body onload="paAbfrage()">
+</body>
+</html>
